@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>DSW - FASE 3</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+    <header class="encabezado"> 
+        <h1>
+            Aprendo HTML: Selectores CSS
+        </h1> 
+    </header>
+    <nav class="navegacion">
+        <ul>
+            <li>Inicio</li>
+            <li>Audio</li>
+            <li>Nosotros</li>
+        </ul>
+    </nav>
+    <main class="contenedor">
+        <aside class="lateral">
+            <a class="twitter-timeline" data-height="670" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+
+        <section class="principal">
+         <article>
+            <h2>Proposito del sitio</h2>
+            <p>Este sitio tiene como propósito impulsar el aprendizaje de HTML y CCS enfocado en los coceptos sobre
+                selectores CCS.</p>
+        </article>
+
+        <article>
+            <h3>Selectores CSS</h3>
+
+        <P>Los selectores CSS se utilizan para «encontrar» (o seleccionar) elementos HTML en función del nombre del
+            elemento, del id , de la clase, del atributo, etc.</P>
+        </article>
+
+        <article>
+            <h3>¿Cuáles son los selectores básicos mas utilizados en CSS?</h3>
+        </article>
+
+        <article>
+            <h3>El selector de elementos:</h3>
+            <p>El selector de elementos elige elementos en función del nombre de los mismos. Por ejemplo, podríamos
+                seleccionar todos los elementos en una página, alinearlos a la izquierda y ponerlos en color rojo de la
+                siguiente manera:
+
+                h2 {
+                text-align: left;
+                color: red;
+                }
+            </p>
+        </article>
+
+        <Article>
+            <h3>El selector de ID</h3>
+            <p>El selector de ID utiliza el atributo id de un elemento HTML para seleccionar un elemento específico,
+                esto quiere decir que será único dentro de una página.
+
+                Para ello debes utilizar el símbolo de la almohadilla (#) delante del atributo id. Si por ejemplo
+                tenemos un id=parrafo1 que queremos centrar y poner en color azul, la regla de estilo sería la
+                siguiente:
+
+                #parrafo1 {
+                text-align: center;
+                color: blue;
+                }</p>
+        </Article>
+
+        <article>
+            <h3>El selector de clase</h3>
+            <p>El selector de clase elige los elementos con un atributo de clase específico. Para ello tienes que
+                escribir un punto (.) delante del nombre de la clase .
+
+                Por ejemplo, podemos decidir que aquellos atributos con clase «newsletter» estén centrados y sean rojos:
+
+                .newsletter {
+                text-align: center;
+                color: red;
+                }
+                Otro caso posible sería que quisieras añadir la clase «newsletter» sólo a los elementos de párrafo,
+                entonces quedaría de la siguiente forma:
+
+                p.newsletter {
+                text-align: center;
+                color: red;
+                }
+                ¿Y si si quieres que tus elementos HTML hagan referencia a más de una clase? Pues también es posible.</p>
+        </article>
+
+        <article>
+            <h3>La agrupación de selectores</h3>
+            <p>Si tienes varios elementos a los que quieres aplicarles los mismos estilos también se puede hacer. Para
+                ello tienes que separar cada selector con una coma como en el siguiente ejemplo:
+
+                h1, h2, p {
+                text-align: center;
+                color: red;
+                }</p>
+        </article>
+
+
+
+
+        </section>
+
+
+
+    </main>
+    <footer class="pie">
+        pie de página
+    </footer>
+</body>
+
+</html>
